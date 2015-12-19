@@ -46,6 +46,7 @@ public class GPSActivity extends AppCompatActivity implements Handler.Callback {
     private Double gpsLat = 0.0;
     private Handler locationHandler;
     private Bitmap bmp;
+
     public final static int Gps_Location = 1;
     public final static int Gsm_Location = 2;
     private final int MENU_GSM = 1;
